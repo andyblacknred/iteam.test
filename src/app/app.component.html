@@ -4,7 +4,7 @@
     <div class="control-buttons">
       <button *ngIf="subscribe?.closed || !subscribe" (click)="startTimer()">Start</button>
       <button *ngIf="!subscribe?.closed && subscribe" (click)="stopTimer()">Stop</button>
-      <button (click)="waitTimer()">Wait</button>
+      <button (click)="waitTimer()">Wait (double click)</button>
       <button (click)="resetTimer()">Reset</button>
     </div>
   </div>
